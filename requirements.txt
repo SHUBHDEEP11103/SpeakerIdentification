@@ -1,0 +1,7 @@
+streamlit==1.33.0
+pandas
+scipy
+torch
+librosa
+speechbrain
+sounddevice
