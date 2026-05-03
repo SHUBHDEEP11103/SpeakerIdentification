@@ -11,7 +11,7 @@ DATASET_PATH = "recording2.0"
 EMBEDDING_FILE = "student_embeddings.pt"
 
 print(f"Loading pre-trained deep learning model: {MODEL_NAME}...")
-# This will download the model weights the first time it is run (approx 80MB)
+
 classifier = EncoderClassifier.from_hparams(source=MODEL_NAME, savedir="pretrained_models/spkrec-ecapa-voxceleb")
 
 student_embeddings = {}
